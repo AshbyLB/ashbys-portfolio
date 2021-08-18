@@ -184,17 +184,23 @@
     header {
       width: 100%;
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      
     }
-    @media screen and (max-width: 768px) {
-
-    }
+  }
+  @media screen and (max-width: 768px) {
     main {
       flex-direction: column;
     }
     header {
       width: 100%;
       display: block;
+    }
+    #ashby {
+      text-align: center;
+    }
+    .space {
+      width: 100%;
     }
   }
