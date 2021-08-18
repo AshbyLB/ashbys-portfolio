@@ -9,10 +9,10 @@
 - [Languages](#Languages)
 
 ## Discription
-
+Welcome to my portfolio. Please follow the link and enjoy your time on my page! 
 
 ## Usage 
-
+To navigate the page, please use the hyperlinks provided at the top of the page. 
 
 ## Screenshot
  
