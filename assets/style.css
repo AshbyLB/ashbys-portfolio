@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
   }
-  
+  nav {
+      text-align: right;
+  }
   header {
     background-color: rgb(158, 176, 194);
     display: flex;
@@ -11,18 +13,16 @@
     padding-bottom: 19px;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   
       
   }
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(190, 225, 248);
+    background-image: url(./images/hardwood.jpg);
   }
-  div {
-  margin-right: 10px;
-  position: relative;
-    right:88px;
-  }
+ 
   header div img {
     border-radius: 50%;
     max-width: 200px;
@@ -30,11 +30,15 @@
     border:5px solid rgb(165, 165, 185);
     padding: 5px;
     background-color: white;
+    display: flex;
+    justify-content: center;
   }
   h1 {
     color: rgb(20, 61, 77);
     padding: 20px;
-    font-size: 75px;
+    /*margin-right: -425px;*/
+    font-size: 4vw;
+    
     
   
   }
@@ -45,8 +49,8 @@
       border:5px solid rgb(67, 67, 88);
       border-radius: 50px;
       background-image: url(./images/hardwood.jpg);
-      margin-top: 10px;
-      width: 100%;
+      
+      
 
   }
   header nav a {
@@ -62,8 +66,10 @@
   
   li {
     display: inline-block;
+    align-content: flex-end;
     padding: 8px;
     border: 3px solid rgb(201, 188, 247);
+    
   }
   figure {
     background-image: url(./images/blue-back.png);
@@ -72,28 +78,76 @@
   main {
     width: 100%;
     display:flex;
+    justify-content: space-between;
+    
   }
-  article a {
-      width: 200px;
-      height: 200px;
-      overflow: hidden;
-      
-      
-
-  }
-  .seo {
-      padding: 10px;
-      background-image: url(./images/screenshot.png);
-
-  }
- 
- 
-  article a img {
-      height: 100%;
-      width: auto;
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
-article {
-    display: inline-block;
+    aside {
+    background-image: url(./images/hardwood.jpg);
+    text-align: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    border:5px solid rgb(67, 67, 88);
+    color: white;
+    
+    
+    }
+    .work {
+        display: inline-block;
+        text-align: center;
+    }
+    
+article {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+aside p {
+    padding-top: 15px;
+}
+article img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid blue;
+    
+}
+.cir img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+
+} 
+.space {
+    width: 33%;
+}
+#resize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+#ashby {
+    width: 100%;
+    
+}
+#nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
