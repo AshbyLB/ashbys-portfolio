@@ -17,7 +17,7 @@ To navigate the page, please use the hyperlinks provided at the top of the page.
 ## Screenshot
  
 
-![me](assets/images/portfoliopage.png)
+![me](./assets/images/portfoliopage2.png)
 
 ## Languages
 HTML and CSS
