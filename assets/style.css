@@ -152,6 +152,10 @@
     border: 2px solid blue;
   }
 
+  article img:hover{
+    border: 4px solid rgb(63, 25, 134);
+  }
+
   .space {
     width: 33%;
   }
